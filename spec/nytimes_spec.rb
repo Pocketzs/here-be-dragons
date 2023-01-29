@@ -1,9 +1,8 @@
-require 'rspec'
 require 'pry'
 require './lib/nytimes'
 
 class Nytimes
-  describe 'data' do 
+  RSpec.describe 'data' do 
     before :each do 
       @hash = Nytimes::DATA
     end 
